@@ -11,26 +11,14 @@ export default function ThirdSection() {
           data-aos="zoom-in"
           className="mx-auto mb-20 max-w-screen-xl px-4 text-center"
         >
-          <div className="size-24 relative mx-auto mb-6">
-            {/* Logo */}
-            <Image
-              src="/assets/logo.png"
-              alt="logotext"
-              fill
-              className="object-contain"
-            />
-          </div>
           <div className="mb-6 text-3xl text-yellow-200 md:mb-8 md:text-4xl">
-            Revolutionizing Planting: Effortless Gardening Made Possible
+            Showcasing Excellence Through Professional Event Backdrops
           </div>
           <div className="font-roboto text-sm text-neutral-400 md:text-base">
-            Introducing a breakthrough in gardening! We've made the planting
-            experience easier than ever before. Whether you're a seasoned
-            gardener or just starting out, our innovative solutions streamline
-            the process, so you can enjoy the therapeutic benefits of nurturing
-            your plants without the hassle. Explore our tools and techniques
-            designed to simplify planting, from seed to harvest. Get ready to
-            grow with confidence!"
+            Explore our professionally crafted backdrop installations for
+            prestigious events. Each setup is designed with attention to detail,
+            structural precision, and visual impact to support award ceremonies,
+            conferences, and high-profile corporate events.
           </div>
         </div>
         <div className="">
@@ -38,7 +26,7 @@ export default function ThirdSection() {
             {/* Background Image */}
             <div className="absolute inset-0 z-0 h-full w-full">
               <Image
-                src="/assets/hero2.jpg" // Place your image in the public/images folder
+                src="/assets/hero2.png" // Place your image in the public/images folder
                 alt="Beautiful garden background"
                 fill
                 priority
@@ -58,20 +46,14 @@ export default function ThirdSection() {
                 >
                   <div className="">
                     <div className="text-3xl text-yellow-200 md:text-4xl">
-                      Start with smile and love
+                      Crafting the Perfect Stage for Prestigious Moments
                     </div>
                   </div>
                   <div className="font-roboto text-sm text-neutral-300 md:text-base">
-                    At Bekebon, our expertise nurtures both your garden and
-                    plants, ensuring they flourish and thrive. Discover how we
-                    bring green spaces to life.
+                    From award ceremonies to corporate gatherings, we deliver
+                    high-quality backdrop solutions that enhance the atmosphere
+                    and leave a lasting impression.
                   </div>
-                </div>
-
-                <div data-aos="fade-left" className="">
-                  <Button className="h-10 max-w-[12rem] rounded-full bg-yellow-200 text-base text-black transition-colors hover:bg-yellow-300 md:h-12 md:max-w-[14rem] lg:text-lg">
-                    Collaborate with us
-                  </Button>
                 </div>
               </div>
             </div>

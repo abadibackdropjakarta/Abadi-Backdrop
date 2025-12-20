@@ -15,21 +15,21 @@ const PRODUCTS = [
     id: 1,
     title: "",
     description: "",
-    imageUrl: "/assets/item1.jpg",
+    imageUrl: "/assets/item1.png",
     color: "bg-emerald-100",
   },
   {
     id: 2,
     title: "",
     description: "",
-    imageUrl: "/assets/item2.jpg",
+    imageUrl: "/assets/item2.png",
     color: "bg-amber-100",
   },
   {
     id: 3,
     title: "",
     description: "",
-    imageUrl: "/assets/item3.jpg",
+    imageUrl: "/assets/item3.png",
     color: "bg-rose-100",
   },
 ];
@@ -50,32 +50,13 @@ export default function SecondSection() {
       <div className="mx-auto max-w-screen-2xl justify-between md:flex">
         <div data-aos="fade-right" className="pt-24 pb-10">
           <div className="max-w-screen-md text-3xl text-yellow-200 md:text-4xl">
-            By combining technology and science, every small part is within your
-            control.
+            Professional Backdrops for Every Event.
           </div>
           <div className="md:text- font-roboto mt-4 max-w-screen-sm text-sm text-neutral-400 md:text-base">
-            Unlock Precision Control: Seamlessly Manage Every Detail with the
-            Fusion of Technology and Science.
-          </div>
-        </div>
-        <div className="flex items-end justify-end pb-6 md:justify-normal md:bg-green-950 md:px-12">
-          {/* Button */}
-          <div
-            data-aos="fade-left"
-            className="flex items-center justify-center gap-4 md:gap-6"
-          >
-            <button
-              onClick={onPrevClick}
-              className="border-pallete-ternary flex size-14 cursor-pointer items-center justify-center rounded-full bg-white"
-            >
-              <FaArrowLeft className="text-pallete-ternary text-2xl" />
-            </button>
-            <button
-              onClick={onNextClick}
-              className="bg-pallete-main flex size-14 cursor-pointer items-center justify-center rounded-full bg-white"
-            >
-              <FaArrowRight className="text-pallete-ternary text-2xl" />
-            </button>
+            We deliver high-quality backdrop solutions with clean designs,
+            strong construction, and precise workmanship. By combining modern
+            technology, premium materials, and an experienced team, we ensure
+            every detail of your event is fully under control.
           </div>
         </div>
       </div>
@@ -83,7 +64,7 @@ export default function SecondSection() {
         <Carousel
           plugins={[
             Autoplay({
-              delay: 5000,
+              delay: 3000,
             }),
           ]}
           setApi={setApi}

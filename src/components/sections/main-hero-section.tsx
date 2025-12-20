@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
@@ -10,7 +10,7 @@ export default function MainHeroSection() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0 h-full w-full">
           <Image
-            src="/assets/hero.jpg" // Place your image in the public/images folder
+            src="/assets/hero.png" // Place your image in the public/images folder
             alt="Beautiful garden background"
             fill
             priority
@@ -26,17 +26,13 @@ export default function MainHeroSection() {
           <div className="flex h-[52rem] max-w-[32rem] flex-col justify-end gap-12 pb-[12rem]">
             <div className="">
               <div className="text-4xl font-semibold text-white md:text-5xl">
-                We help your garden and plants grow.
+                We are ready to help with your backdrop needs.
               </div>
             </div>
-            <div className="text-base text-white/90 md:text-lg font-roboto">
-              At Bekebon, our expertise nurtures both your garden and plants,
-              ensuring they flourish and thrive. Discover how we bring green
-              spaces to life.
+            <div className="font-roboto text-base text-white/90 md:text-lg">
+              M We provide 24-hour backdrop rental services because we value
+              your needs.
             </div>
-            <Button className="h-12 max-w-[14rem] rounded-full bg-yellow-200 text-base font-semibold text-black transition-colors hover:bg-yellow-300 md:h-14 md:max-w-[16rem] lg:text-lg">
-              Explore how we work
-            </Button>
           </div>
         </div>
       </div>

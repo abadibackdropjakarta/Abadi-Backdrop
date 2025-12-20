@@ -2,65 +2,94 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Separator } from "@/components/ui/separator";
 import MapComponent from "./mapcomponent";
 
 export default function Footer() {
-  interface MapProps {
-    lat: number;
-    lng: number;
-  }
   return (
-    <div>
-      <Separator className="mt-20 bg-neutral-800" />
-      <div className="mx-auto max-w-screen-2xl px-4 py-12">
-        <div className="">
-          <div className="relative mb-6 aspect-[3/1] w-48">
-            {/* Logo */}
-            <Image
-              src="/assets/logotextpng.png"
-              alt="logotext"
-              fill
-              className="object-contain"
-            />
-          </div>
-        </div>
-        <div className="flex flex-col justify-between gap-12 text-sm md:text-base lg:flex-row lg:gap-0">
-          <ul className="flex flex-wrap gap-4 text-neutral-300 lg:gap-8">
-            <Link href="#">Project</Link>
-            <Link href="#">Our Story</Link>
-            <Link href="#">About Us</Link>
-            <Link href="#">Support</Link>
-            <Link href="#">Careers</Link>
-            <Link href="#">Blog</Link>
-          </ul>
-          <div className="flex flex-row gap-4 lg:w-[24rem] lg:flex-col">
-            <div className="mb-6 h-[14rem] w-full max-w-[20rem]">
-              <MapComponent lat={-6.861940096619952} lng={107.59462764880793} />
-            </div>
-            <div className="flex flex-col gap-8 text-neutral-300 md:flex-row">
-              <div className="">
-                <p>Email</p>
-                <p className="text-neutral-500">sales@bekebon.com</p>
-              </div>
-              <div className="">
-                <p>Phone</p>
-                <p className="text-neutral-500">+1 432 6636</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="mt-12 flex flex-col justify-between gap-2 text-center text-sm text-neutral-400 md:text-base lg:flex-row lg:text-start">
-          <div className="flex-wrap">
-            <Link href="#">Privacy Policy | </Link>
-            <Link href="#">Terms of Use | </Link>
-            <Link href="#">Sales and Refunds | </Link>
-            <Link href="#">Legal | </Link>
-            <Link href="#">Site Map</Link>
-          </div>
-          <div className="">Copyright © Bekebon. All rights reserved</div>
+    <footer className="secondary-foreground text-neutral-200">
+      {/* ================= MAP SECTION ================= */}
+      <div className="relative h-[360px] w-full">
+        <MapComponent lat={-6.861940096619952} lng={107.59462764880793} />
+
+        {/* FIND US BUTTON */}
+        <div className="absolute top-6 left-6">
+          <span className="bg-orange-500 px-4 py-2 text-sm font-semibold text-white uppercase">
+            Find Us
+          </span>
         </div>
       </div>
-    </div>
+
+      {/* ================= CONTENT ================= */}
+      <div className="mx-auto max-w-screen-2xl px-6 py-16">
+        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
+          {/* SERVICE STATION */}
+          <div>
+            <h4 className="mb-4 text-sm font-semibold text-white uppercase">
+              Service Station
+            </h4>
+            <ul className="space-y-2 text-sm text-neutral-300">
+              <li>Geometry steering wheel</li>
+              <li>Oil change</li>
+              <li>Replacement & repair exhaust</li>
+              <li>Replacement shock absorbers</li>
+              <li>Diagnostics</li>
+            </ul>
+          </div>
+
+          {/* TIRE SERVICE */}
+          <div>
+            <h4 className="mb-4 text-sm font-semibold text-white uppercase">
+              Tire Service
+            </h4>
+            <ul className="space-y-2 text-sm text-neutral-300">
+              <li>Replacement tires</li>
+              <li>Balancing wheels</li>
+              <li>Seasonal tire storage</li>
+            </ul>
+          </div>
+
+          {/* OTHER SERVICES */}
+          <div>
+            <h4 className="mb-4 text-sm font-semibold text-white uppercase">
+              Other Services
+            </h4>
+            <ul className="space-y-2 text-sm text-neutral-300">
+              <li>Air conditioning service</li>
+              <li>American car service</li>
+              <li>Preparing for MOT</li>
+            </ul>
+          </div>
+
+          {/* FIND US */}
+          <div>
+            <h4 className="mb-4 text-sm font-semibold text-white uppercase">
+              Find Us
+            </h4>
+            <p className="text-sm text-neutral-300">
+              Chomutovice 24 <br />
+              251 01 Prague-East
+            </p>
+
+            <div className="mt-4 space-y-1 text-sm text-neutral-300">
+              <p>+62 819 0812 7687</p>
+              <p>abadibackdrop@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ================= COPYRIGHT ================= */}
+      <div className="border-t border-neutral-600">
+        <div className="mx-auto flex max-w-screen-2xl flex-col gap-2 px-6 py-6 text-sm text-neutral-400 md:flex-row md:justify-between">
+          <p>© 2012 Abadi Backdrop. All rights reserved.</p>
+          <p>
+            Webdesign by{" "}
+            <Link href="#" className="text-neutral-300 hover:text-white">
+              Giant
+            </Link>
+          </p>
+        </div>
+      </div>
+    </footer>
   );
 }

@@ -7,7 +7,7 @@ interface MapProps {
 }
 
 const MapComponent: React.FC<MapProps> = ({ lat, lng }) => {
-  const embedUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000!2d${lng}!3d${lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${lat},${lng}!5e0!3m2!1sen!2sus!4v1617171234567!5m2!1sen!2sus`;
+  const embedUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.6288991580395!2d106.91046969354953!3d-6.3057739970804505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed52ccd34195%3A0xb9f803261cac5fa!2sMasjid%20Nurul%20Iman!5e0!3m2!1sid!2sid!4v1766249125203!5m2!1sid!2sid`;
   return (
     <iframe
       width="100%"

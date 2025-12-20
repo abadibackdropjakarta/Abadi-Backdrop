@@ -15,11 +15,10 @@ import {
 import { Button } from "@/components/ui/button";
 import { HiMenuAlt3 } from "react-icons/hi";
 
-
 export default function Navbar() {
-
-  const phoneNumber = "082123456790";
-  const message = "Hello! I'm interested in learning more about your services.";
+  const phoneNumber = "081908127687";
+  const message =
+    "Hello, I would like to order a backdrop for an event. Please let me know the available options, pricing, and setup details.Thank you.";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   const [scrolled, setScrolled] = useState(false);
@@ -228,7 +227,9 @@ export default function Navbar() {
                     priority
                   />
                 </div>
-                <p className="text-xl font-medium text-neutral-200">Contact Us</p>
+                <p className="text-xl font-medium text-neutral-200">
+                  Contact Us
+                </p>
               </a>
             </nav>
           </SheetContent>
