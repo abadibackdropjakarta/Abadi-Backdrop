@@ -1,11 +1,17 @@
 "use client";
+
 import React from "react";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
+import { useLanguage } from "@/context/LanguageContext";
 
 export default function FouthSection() {
+  const { t } = useLanguage();
+
   return (
-    <section className="relative mx-auto w-full max-w-[120rem] overflow-hidden">
+    <section
+      id="awards"
+      className="relative mx-auto w-full max-w-[120rem] overflow-hidden"
+    >
       {/* Background Logo Decoration */}
       <div className="pointer-events-none absolute top-24 right-24 z-0 h-[32rem] w-[32rem]">
         <Image
@@ -21,13 +27,10 @@ export default function FouthSection() {
         {/* Section Heading */}
         <div data-aos="fade-up" className="mb-12 max-w-screen-md">
           <h2 className="mb-4 text-2xl font-medium text-yellow-200 md:text-3xl">
-            Explore Our Completed Backdrop Projects
+            {t.fourthTitle}
           </h2>
           <p className="font-roboto text-sm text-neutral-400 md:text-base">
-            Discover a curated selection of professionally crafted backdrops
-            delivered for various events. Each project reflects our commitment
-            to quality materials, precise construction, and flawless execution
-            that elevates every event experience.
+            {t.fourthDesc}
           </p>
         </div>
 
@@ -68,26 +71,19 @@ export default function FouthSection() {
             className="flex w-full flex-col justify-center lg:max-w-[32rem]"
           >
             <h3 className="mb-4 text-sm font-medium tracking-wide text-yellow-200 uppercase md:text-base">
-              Steel Frame Backdrop
+              {t.fourthSteelTitle}
             </h3>
 
             <p className="font-roboto mb-4 text-sm text-neutral-400 md:text-base">
-              Our backdrops use high-quality hollow steel frames at an
-              affordable cost, with heights of up to 5 meters without joints.
-              This construction ensures a stronger, cleaner, and more
-              professional appearance, making your backdrop durable and visually
-              neat even in outdoor conditions.
+              {t.fourthSteelDesc}
             </p>
 
             <h4 className="mb-4 text-sm font-medium tracking-wide text-yellow-200 uppercase md:text-base">
-              Multiplex Frame Backdrop
+              {t.fourthMultiplexTitle}
             </h4>
 
             <p className="font-roboto mb-8 text-sm text-neutral-400 md:text-base">
-              This backdrop uses a multiplex (plywood) frame, allowing fully
-              customized designs tailored to your event needs. It is ideal for
-              premium and detailed backdrops, with pricing starting from IDR
-              350,000 per m².
+              {t.fourthMultiplexDesc}
             </p>
           </div>
         </div>

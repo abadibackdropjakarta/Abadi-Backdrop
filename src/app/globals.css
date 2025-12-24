@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Passions+Conflict&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Passions+Conflict&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 /* Rest of your CSS code */
 
@@ -55,7 +55,7 @@
   --color-avocado-400: oklch(0.92 0.19 114.08);
   --color-avocado-500: oklch(0.84 0.18 117.33);
   --color-avocado-600: oklch(0.53 0.12 118.34);
-  --color-custom-background: #191B1F;
+  --color-custom-background: #191b1f;
   /* New Font */
   --font-inter: "Inter", sans-serif;
   --font-nunito: "Nunito", sans-serif;
@@ -143,5 +143,7 @@
 }
 
 @layer utilities {
-  
+}
+html {
+  scroll-behavior: smooth;
 }

@@ -6,12 +6,26 @@ import ThirdSection from "@/components/sections/third-section";
 
 export default function Home() {
   return (
-    <div className="">
-      <MainHeroSection />
-      <SecondSection />
-      <ThirdSection />
-      <FouthSection />
-      <FifthSection />
-    </div>
+    <main>
+      <section id="hero">
+        <MainHeroSection />
+      </section>
+
+      <section id="services">
+        <SecondSection />
+      </section>
+
+      <section id="works">
+        <ThirdSection />
+      </section>
+
+      <section id="awards">
+        <FouthSection />
+      </section>
+
+      <section id="projects">
+        <FifthSection />
+      </section>
+    </main>
   );
 }
