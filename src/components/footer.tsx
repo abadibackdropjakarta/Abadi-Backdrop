@@ -78,7 +78,7 @@ export default function Footer() {
           <p>
             {t.footerWebBy}{" "}
             <Link href="#" className="text-neutral-300 hover:text-white">
-              Giant
+              Abadi Backdrop
             </Link>
           </p>
         </div>

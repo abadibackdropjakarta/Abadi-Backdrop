@@ -9,30 +9,43 @@ export default function MainHeroSection() {
 
   return (
     <section id="hero">
-      <div className="relative h-[52rem] w-full overflow-hidden">
+      <div
+        className="
+          relative w-full overflow-hidden
+          h-[100svh]
+          md:h-[90vh]
+          lg:h-screen
+        "
+      >
         {/* Background Image */}
-        <div className="absolute inset-0 z-0 h-full w-full">
+        <div className="absolute inset-0">
           <Image
             src="/assets/hero.png"
             alt="Hero background"
             fill
             priority
-            className="object-cover object-center"
             quality={90}
+            className="
+              object-cover
+              object-[center_top]   /* mobile: fokus atas */
+              md:object-center      /* desktop: center */
+            "
           />
+
           {/* Overlay */}
-          <div className="absolute inset-0 z-10 bg-gradient-to-b from-black/10 via-black/30 to-black/60" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/40 to-black/70" />
         </div>
 
-        <div className="relative mx-auto max-w-screen-2xl px-4 md:px-8">
-          <div className="flex h-[52rem] max-w-[32rem] flex-col justify-end gap-12 pb-[12rem]">
-            <div className="text-4xl font-semibold text-white md:text-5xl">
+        {/* Content */}
+        <div className="relative z-10 mx-auto flex h-full max-w-screen-2xl px-4 sm:px-6 md:px-8">
+          <div className="flex max-w-xl flex-col justify-end gap-6 pb-20 sm:pb-28 md:pb-36">
+            <h1 className="text-3xl font-semibold leading-tight text-white sm:text-4xl md:text-5xl">
               {t.heroTitle}
-            </div>
+            </h1>
 
-            <div className="font-roboto text-base text-white/90 md:text-lg">
+            <p className="font-roboto text-sm leading-relaxed text-white/90 sm:text-base md:text-lg">
               {t.heroSubtitle}
-            </div>
+            </p>
           </div>
         </div>
       </div>

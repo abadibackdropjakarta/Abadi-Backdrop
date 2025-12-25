@@ -9,44 +9,65 @@ export default function ThirdSection() {
 
   return (
     <section id="works">
-      <div className="py-20">
+      <div className="py-16 md:py-24">
         {/* TOP CONTENT */}
         <div
           data-aos="zoom-in"
-          className="mx-auto mb-20 max-w-screen-xl px-4 text-center"
+          className="mx-auto mb-14 max-w-screen-xl px-4 text-center md:mb-20"
         >
-          <h2 className="mb-6 text-3xl text-yellow-200 md:mb-8 md:text-4xl">
+          <h2 className="mb-4 text-2xl font-semibold text-yellow-200 sm:text-3xl md:mb-6 md:text-4xl">
             {t.thirdTitle}
           </h2>
-          <p className="font-roboto text-sm text-neutral-400 md:text-base">
+          <p className="mx-auto max-w-2xl font-roboto text-sm leading-relaxed text-neutral-400 sm:text-base">
             {t.thirdDesc}
           </p>
         </div>
 
         {/* IMAGE SECTION */}
-        <div className="relative h-[44rem] w-full overflow-hidden">
-          <div className="absolute inset-0 z-0 h-full w-full">
+        <div
+          className="
+            relative w-full overflow-hidden
+            h-[100svh]
+            md:h-[85vh]
+            lg:h-[44rem]
+          "
+        >
+          {/* Background Image */}
+          <div className="absolute inset-0">
             <Image
               src="/assets/hero2.png"
               alt="Event backdrop showcase"
               fill
               priority
-              className="object-cover object-center"
               quality={90}
+              className="
+                object-cover
+                object-[center_top]   /* mobile */
+                md:object-center      /* desktop */
+              "
             />
-            <div className="absolute inset-0 z-10 bg-gradient-to-b from-black/10 via-black/30 to-black/60" />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/40 to-black/70" />
           </div>
 
-          <div className="relative mx-auto max-w-screen-2xl px-4 md:px-8">
-            <div className="flex h-[44rem] flex-col justify-end gap-6 pb-[6rem] md:flex-row md:items-end md:justify-between">
+          {/* Content */}
+          <div className="relative z-10 mx-auto flex h-full max-w-screen-2xl px-4 sm:px-6 md:px-8">
+            <div
+              className="
+                flex w-full flex-col justify-end gap-4
+                pb-16
+                sm:pb-24
+                md:flex-row md:items-end md:justify-between md:pb-28
+              "
+            >
               <div
                 data-aos="fade-right"
-                className="flex max-w-[48rem] flex-col gap-6"
+                className="flex max-w-xl flex-col gap-4 md:gap-6"
               >
-                <h3 className="text-3xl text-yellow-200 md:text-4xl">
+                <h3 className="text-2xl font-semibold text-yellow-200 sm:text-3xl md:text-4xl">
                   {t.thirdHeroTitle}
                 </h3>
-                <p className="font-roboto text-sm text-neutral-300 md:text-base">
+
+                <p className="font-roboto text-sm leading-relaxed text-neutral-300 sm:text-base">
                   {t.thirdHeroDesc}
                 </p>
               </div>
