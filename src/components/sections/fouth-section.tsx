@@ -88,7 +88,7 @@ export default function FouthSection() {
             data-aos="fade-left"
             className="flex w-full flex-col justify-center lg:max-w-[32rem]"
           >
-            <h3 className="mb-3 text-xs font-medium tracking-wide text-yellow-200 uppercase sm:text-sm md:text-base">
+            <h3 className="mb-3 font-medium tracking-wide text-yellow-200 uppercase sm:text-sm md:text-base">
               {t.fourthSteelTitle}
             </h3>
 
@@ -96,7 +96,7 @@ export default function FouthSection() {
               {t.fourthSteelDesc}
             </p>
 
-            <h4 className="mb-3 text-xs font-medium tracking-wide text-yellow-200 uppercase sm:text-sm md:text-base">
+            <h4 className="mb-3 font-medium tracking-wide text-yellow-200 uppercase sm:text-sm md:text-base">
               {t.fourthMultiplexTitle}
             </h4>
 

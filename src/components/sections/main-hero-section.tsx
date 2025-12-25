@@ -39,7 +39,7 @@ export default function MainHeroSection() {
         {/* Content */}
         <div className="relative z-10 mx-auto flex h-full max-w-screen-2xl px-4 sm:px-6 md:px-8">
           <div className="flex max-w-xl flex-col justify-end gap-6 pb-20 sm:pb-28 md:pb-36">
-            <h1 className="text-3xl font-semibold leading-tight text-white sm:text-4xl md:text-5xl">
+            <h1 className="text-3xl font-semibold leading-tight text-yellow-200 sm:text-4xl md:text-5xl">
               {t.heroTitle}
             </h1>
 

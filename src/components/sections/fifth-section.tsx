@@ -42,7 +42,7 @@ export default function FifthSection() {
 
       {/* CONTENT */}
       <div data-aos="fade-up" className="mt-6 md:mt-10">
-        <h2 className="mb-4 text-xl font-medium text-white sm:text-2xl md:mb-6 md:text-3xl">
+        <h2 className="mb-4 text-xl font-medium text-yellow-200 sm:text-2xl md:mb-6 md:text-3xl">
           {t.fifthTitle}
         </h2>
 
