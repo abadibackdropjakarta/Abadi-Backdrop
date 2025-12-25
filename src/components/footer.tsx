@@ -42,7 +42,7 @@ export default function Footer() {
               {t.footerSocial}
             </h4>
             <ul className="space-y-2 text-sm text-neutral-300">
-              <li>Abadi</li>
+              <li>IG: abadibackdrop</li>
             </ul>
           </div>
 
@@ -63,7 +63,7 @@ export default function Footer() {
             </h4>
             <div className="mt-4 space-y-1 text-sm text-neutral-300">
               <p>
-                Jalan Waru Majid Nurul Iman no.82, Rt.9 Rw.3, Bambu Apus,
+                Jalan Waru Masjid Nurul Iman no.82, Rt.9 Rw.3, Bambu Apus,
                 Cipayung, Kota Jakarta Timur, DKI Jakarta
               </p>
             </div>
