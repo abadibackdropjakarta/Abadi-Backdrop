@@ -108,7 +108,7 @@ export const translations = {
 
     fourthMultiplexTitle: "Backdrop Rangka Multiplex",
     fourthMultiplexDesc:
-      "Backdrop ini menggunakan rangka multiplex (kayu lapis) yang memungkinkan desain sepenuhnya disesuaikan dengan kebutuhan acara Anda. Sangat ideal untuk backdrop premium dan detail, dengan harga mulai dari Rp.200.000 per m².",
+      "Backdrop ini menggunakan rangka multiplex (kayu lapis) yang memungkinkan desain sepenuhnya disesuaikan dengan kebutuhan acara Anda. Sangat ideal untuk backdrop premium dan detail, dengan harga mulai dari Rp.200.000 / m².",
     // ===== FIFTH SECTION =====
     fifthTitle: "Backdrop Acara Profesional",
     fifthDescOne:
