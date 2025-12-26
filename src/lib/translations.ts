@@ -104,11 +104,11 @@ export const translations = {
 
     fourthSteelTitle: "Backdrop Rangka Baja",
     fourthSteelDesc:
-      "Backdrop ini menggunakan rangka besi hollow berkualitas tinggi yang kuat, stabil, dan tahan lama. Dapat dibuat hingga 5 meter tanpa sambungan, sehingga tampil lebih rapi, bersih, dan profesional. Cocok digunakan untuk berbagai acara indoor maupun outdoor karena konstruksinya kokoh dan aman. Harga mulai dari Rb200.000 / m².",
+      "Backdrop ini menggunakan rangka besi hollow berkualitas tinggi yang kuat, stabil, dan tahan lama. Dapat dibuat hingga 5 meter tanpa sambungan, sehingga tampil lebih rapi, bersih, dan profesional. Cocok digunakan untuk berbagai acara indoor maupun outdoor karena konstruksinya kokoh dan aman. Harga mulai dari Rp.200.000 / m².",
 
     fourthMultiplexTitle: "Backdrop Rangka Multiplex",
     fourthMultiplexDesc:
-      "Backdrop ini menggunakan rangka multiplex (kayu lapis) yang memungkinkan desain sepenuhnya disesuaikan dengan kebutuhan acara Anda. Sangat ideal untuk backdrop premium dan detail, dengan harga mulai dari Rp200.000 per m².",
+      "Backdrop ini menggunakan rangka multiplex (kayu lapis) yang memungkinkan desain sepenuhnya disesuaikan dengan kebutuhan acara Anda. Sangat ideal untuk backdrop premium dan detail, dengan harga mulai dari Rp.200.000 per m².",
     // ===== FIFTH SECTION =====
     fifthTitle: "Backdrop Acara Profesional",
     fifthDescOne:
