@@ -10,7 +10,7 @@ export const translations = {
 
     // ===== HERO (MAIN HERO) =====
     heroTitle: "Professional Event Backdrop Solutions",
-    heroSubtitle: "High-quality backdrop designs for your events",
+    heroSubtitle: "Frame High-quality backdrop designs for your events",
     cta: "Contact Us",
 
     // ===== SECOND SECTION (SERVICES HERO) =====
@@ -41,7 +41,7 @@ export const translations = {
 
     fourthSteelTitle: "Steel Frame Backdrop",
     fourthSteelDesc:
-      "Our backdrops use high-quality hollow steel frames at an affordable cost, with heights of up to 5 meters without joints. This construction ensures a stronger, cleaner, and more professional appearance, making your backdrop durable and visually neat even in outdoor conditions.",
+      "This backdrop uses a high-quality hollow iron frame that is strong, stable, and durable. It can be made up to 5 meters without joints, giving it a neater, cleaner, and more professional look. Suitable for various indoor and outdoor events due to its sturdy and safe construction. Prices start from IDR 200,000 / m².",
 
     fourthMultiplexTitle: "Multiplex Frame Backdrop",
     fourthMultiplexDesc:
@@ -73,7 +73,7 @@ export const translations = {
 
     // ===== HERO (MAIN HERO) =====
     heroTitle: "Solusi Backdrop Acara Profesional",
-    heroSubtitle: "Desain backdrop berkualitas tinggi untuk acara Anda",
+    heroSubtitle: "Bingkai Desain backdrop berkualitas tinggi untuk acara Anda",
     cta: "Hubungi Kami",
 
     // ===== SECOND SECTION (SERVICES HERO) =====
@@ -104,7 +104,7 @@ export const translations = {
 
     fourthSteelTitle: "Backdrop Rangka Baja",
     fourthSteelDesc:
-      "Backdrop kami menggunakan rangka baja hollow berkualitas tinggi dengan biaya terjangkau, dengan tinggi hingga 5 meter tanpa sambungan. Konstruksi ini memastikan tampilan yang lebih kuat, rapi, dan profesional, sehingga backdrop tetap kokoh dan menarik bahkan untuk acara luar ruangan.",
+      "Backdrop ini menggunakan rangka besi hollow berkualitas tinggi yang kuat, stabil, dan tahan lama. Dapat dibuat hingga 5 meter tanpa sambungan, sehingga tampil lebih rapi, bersih, dan profesional. Cocok digunakan untuk berbagai acara indoor maupun outdoor karena konstruksinya kokoh dan aman. Harga mulai dari Rb200.000 / m².",
 
     fourthMultiplexTitle: "Backdrop Rangka Multiplex",
     fourthMultiplexDesc:
